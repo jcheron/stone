@@ -1,0 +1,11 @@
+CC=gcc
+OBJ=gest_partie.o joueur.o machine.o principal.o
+CFLAGS=-W -Wall
+
+
+principal: gest_partie.o joueur.o machine.o principal.o
+	$(CC) $(CFLAGS) $(OBJ) -o principal
+
+gest_partie.o: gest_partie.c gest_partie.h
+	$(CC) $(CFLAGS) -c gest_partie.c
+
