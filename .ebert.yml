@@ -1,0 +1,7 @@
+engines:
+  rubocop:
+    enabled: true
+  scss-lint:
+    enabled: true
+  duplication:
+    enabled: true
