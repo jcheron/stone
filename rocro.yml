@@ -6,3 +6,4 @@ inspecode:
     options: [--single-occurrence, --all-likelihoods]  
   astyle: auto-fix
   cpd: default
+  infer: default
