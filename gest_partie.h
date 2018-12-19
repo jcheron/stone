@@ -14,12 +14,12 @@
 
 
 /* initialiser le jeu cailloux */
-void initialiser(int *nbca, int *jo); 
+void initialiser(int *nbca, int *jo);
 
-int changer_tour_jeu(int jo); 
+int changer_tour_jeu(int jo);
 
-int est_nombre(int c); 
+int est_nombre(int c);
 
-int saisie_nombre(const char* prompt); 
+int saisie_nombre(const char* prompt);
 
 #endif
