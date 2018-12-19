@@ -5,3 +5,4 @@ inspecode:
   unused:
     options: [--single-occurrence, --all-likelihoods]  
   astyle: auto-fix
+  cpd: default
