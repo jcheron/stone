@@ -2,4 +2,6 @@ inspecode:
   cppcheck:
     options:
       --enable: all
-  
+  unused:
+    options: [--single-occurrence, --all-likelihoods]  
+  astyle: auto-fix
