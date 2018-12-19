@@ -1,0 +1,5 @@
+inspecode:
+  cppcheck:
+    options:
+      --enable: all
+  
