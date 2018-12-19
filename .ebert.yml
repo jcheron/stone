@@ -1,7 +1,5 @@
 engines:
-  rubocop:
-    enabled: true
-  scss-lint:
+  gnu-complexity:
     enabled: true
   duplication:
     enabled: true
